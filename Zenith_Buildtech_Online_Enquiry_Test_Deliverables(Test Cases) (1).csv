@@ -1,0 +1,87 @@
+Project Name:,Zenith Buildtech Online Enquiry Application,,,,,,,
+Module Name:,Online Enquiry Form,Date Updated:,29-Aug-2026,,,,,
+Last Build Tested:,,Reviewed By:,Raghavendra BN,,,,,
+Run No:,,Executed By:,Raghavendra BN and Srivatsav Reddy,,,,,
+Run Date:,29-Aug-2026,,,,,,,
+Test Objectives:,"Validate the Zenith Buildtech Online Enquiry Form for field validation, mandatory fields, boundary conditions, successful submission and Clear button functionality.",,,,,,,
+Test Setup:,"MS Excel Sheet 2026 ,Microsoft Edge Browser",,,,,,,
+Req_Id,Test_Case ID,Test_Case_Description,Test_steps,Test_Data,Expected_Result,Actual_Result,Status,Screenshots
+Req_1.0,TC_01,Verify the enquiry form accepts valid values in all mandatory and optional fields and submits successfully.,"1. Open the Zenith Buildtech Online Enquiry Form.
+2. Enter valid values in Name, Company Name, Address, City, Pin Code, Phone No, Email and Message.
+3. Click SEND.
+4. Observe the next page.","Name: Srivatsav Reddy
+Company Name: Zenith Buildtech
+Address: 123 Main Road
+City: Hyderabad
+Pin Code: 500001
+Phone No: 9876543210
+Email: srivatsav@example.com
+Message: I would like details about constructing a residence.","All valid values should be accepted. On clicking SEND, the application should navigate to the next page and display “Enquiry Sent”.",Not Executed,Not Run,
+Req_1.1,TC_02,Verify Name mandatory validation when the Name field is left blank.,"1. Open the enquiry form.
+2. Leave Name blank.
+3. Fill all other mandatory fields with valid values.
+4. Click SEND.
+5. Observe the validation message.","Name: Blank
+Address: 123 Main Road
+Phone: 9876543210
+Email: valid@example.com
+Message: Valid enquiry message",The application should not submit the form and should display an appropriate error message indicating that Name is mandatory.,Application did not display an error message when Name was blank and the form was submitted.,Failed,
+Req_1.2,TC_03,Verify Name field using Boundary Value Analysis for maximum length of 30 alphabetic characters.,"1. Open the enquiry form.
+2. Enter a 30-character alphabetic Name.
+3. Verify it is accepted.
+4. Replace it with a 31-character alphabetic Name.
+5. Verify the 31-character value is rejected or prevented.
+6. Submit with otherwise valid data.","Boundary values:
+Name = 30 alphabetic characters
+Name = 31 alphabetic characters","30 alphabetic characters should be accepted. A 31-character Name should be rejected, restricted or an appropriate validation message should be displayed.",Not Executed,Not Run,
+Req_1.3,TC_04,Verify Address mandatory validation and maximum length of 500 alphanumeric characters.,"1. Open the enquiry form.
+2. Leave Address blank and attempt submission with other mandatory fields valid.
+3. Enter an Address containing exactly 500 allowed alphanumeric characters.
+4. Enter an Address containing 501 characters.
+5. Observe validation.","Address = Blank
+Address = 500 allowed characters
+Address = 501 characters",Blank Address should trigger a mandatory-field error. 500 allowed characters should be accepted. 501 characters should be rejected/restricted with appropriate validation.,Not Executed,Not Run,
+Req_1.4,TC_05,Verify Phone No accepts only a valid 10-digit numeric mobile number.,"1. Open the enquiry form.
+2. Enter a valid 10-digit mobile number.
+3. Verify it is accepted.
+4. Test an alphanumeric value and an 11-digit numeric value.
+5. Click SEND and observe validation.","Valid: 9876543210
+Invalid: 98765AB210
+Invalid length: 98765432101",A valid 10-digit mobile number should be accepted. Non-numeric and incorrect-length values should be rejected with an appropriate error message.,Not Executed,Not Run,
+Req_1.5,TC_06,Verify Pin Code/Zip Code accepts only numeric values of exactly 6 digits.,"1. Open the enquiry form.
+2. Enter a 6-digit numeric Pin Code.
+3. Test a 5-digit value, 7-digit value and alphabetic/alphanumeric value.
+4. Observe validation.","Valid: 500001
+Invalid: 50000
+Invalid: 5000011
+Invalid: 50A001",Only exactly 6 numeric digits should be accepted. Values with fewer/more digits or non-numeric characters should be rejected.,Not Executed,Not Run,
+Req_1.6,TC_07,Verify Email mandatory field accepts only a valid email format.,"1. Open the enquiry form.
+2. Enter a valid email address.
+3. Verify it is accepted.
+4. Replace it with an invalid email format such as user@ or user.com.
+5. Click SEND and observe validation.","Valid: srivatsav@example.com
+Invalid: srivatsav@
+Invalid: srivatsav.com",A valid email format should be accepted. Invalid email formats should be rejected and an appropriate validation message should be displayed.,Application accepted an invalid email format.,Failed,
+Req_1.7,TC_08,Verify Company Name and City accept only their specified character types and maximum lengths.,"1. Enter a valid alphanumeric Company Name and alphabetic City.
+2. Verify both are accepted.
+3. Test Company Name with 100 characters and then 101 characters.
+4. Test City with 100 alphabetic characters and then 101 characters.
+5. Test invalid character types where applicable.","Company Name: ZenithBuildtech123
+Company length: 100 / 101 characters
+City: Hyderabad
+City length: 100 / 101 alphabetic characters",Company Name should accept alphanumeric values up to 100 characters only. City should accept alphabetic values up to 100 characters only. Values outside these rules should be rejected/restricted.,Not Executed,Not Run,
+Req_1.8,TC_09,Verify Message is mandatory and supports alphanumeric values with special characters up to 2000 words.,"1. Open the enquiry form.
+2. Leave Message blank and submit with other mandatory fields valid.
+3. Enter a valid message containing alphanumeric and special characters.
+4. Test a message of exactly 2000 words and then more than 2000 words.
+5. Observe validation.","Message: Blank
+Message: Valid text with letters, numbers and special characters
+Boundary: 2000 words
+Invalid: 2001 words",Blank Message should trigger a mandatory-field error. Valid content including special characters should be accepted up to 2000 words. More than 2000 words should be rejected/restricted.,Not Executed,Not Run,
+Req_1.9,TC_10,Verify CLEAR button erases all data entered in the enquiry form.,"1. Open the enquiry form.
+2. Enter valid data in every field.
+3. Click CLEAR.
+4. Observe all form fields.","Populate Name, Company Name, Address, City, Pin Code, Phone No, Email and Message with valid values.",All data entered by the user should be erased and the form fields should return to their initial/blank state.,Not Executed,Not Run,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
