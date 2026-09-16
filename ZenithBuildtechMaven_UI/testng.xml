@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Zenith Buildtech Online Enquiry Suite">
+    <test name="Online Enquiry Tests">
+        <classes>
+            <class name="zenith.OnlineEnquiryTest"/>
+        </classes>
+    </test>
+</suite>

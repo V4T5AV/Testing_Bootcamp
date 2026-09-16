@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-17T01:56:13 IST" name="Zenith Buildtech Online Enquiry Suite" finished-at="2026-09-17T01:56:41 IST" duration-ms="27858">
+    <groups>
+    </groups>
+    <test started-at="2026-09-17T01:56:13 IST" name="Online Enquiry Tests" finished-at="2026-09-17T01:56:41 IST" duration-ms="27858">
+      <class name="zenith.OnlineEnquiryTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:zenith.OnlineEnquiryTest@393671df]" started-at="2026-09-17T01:56:13 IST" name="setup" finished-at="2026-09-17T01:56:16 IST" duration-ms="2704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validEnquirySubmission()[pri:1, instance:zenith.OnlineEnquiryTest@393671df]" started-at="2026-09-17T01:56:16 IST" name="validEnquirySubmission" finished-at="2026-09-17T01:56:18 IST" duration-ms="2024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEnquirySubmission -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:zenith.OnlineEnquiryTest@393671df]" started-at="2026-09-17T01:56:18 IST" name="tearDown" finished-at="2026-09-17T01:56:18 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:zenith.OnlineEnquiryTest@393671df]" started-at="2026-09-17T01:56:19 IST" name="setup" finished-at="2026-09-17T01:56:20 IST" duration-ms="1442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="mandatoryFieldsValidation()[pri:2, instance:zenith.OnlineEnquiryTest@393671df]" started-at="2026-09-17T01:56:20 IST" name="mandatoryFieldsValidation" finished-at="2026-09-17T01:56:21 IST" duration-ms="645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mandatoryFieldsValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:zenith.OnlineEnquiryTest@393671df]" started-at="2026-09-17T01:56:21 IST" name="tearDown" finished-at="2026-09-17T01:56:21 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:zenith.OnlineEnquiryTest@393671df]" started-at="2026-09-17T01:56:21 IST" name="setup" finished-at="2026-09-17T01:56:22 IST" duration-ms="1198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="nameValidation()[pri:3, instance:zenith.OnlineEnquiryTest@393671df]" started-at="2026-09-17T01:56:22 IST" name="nameValidation" finished-at="2026-09-17T01:56:23 IST" duration-ms="1004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:zenith.OnlineEnquiryTest@393671df]" started-at="2026-09-17T01:56:23 IST" name="tearDown" finished-at="2026-09-17T01:56:23 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:zenith.OnlineEnquiryTest@393671df]" started-at="2026-09-17T01:56:23 IST" name="setup" finished-at="2026-09-17T01:56:25 IST" duration-ms="1218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="phoneValidation()[pri:4, instance:zenith.OnlineEnquiryTest@393671df]" started-at="2026-09-17T01:56:25 IST" name="phoneValidation" finished-at="2026-09-17T01:56:25 IST" duration-ms="811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoneValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:zenith.OnlineEnquiryTest@393671df]" started-at="2026-09-17T01:56:25 IST" name="tearDown" finished-at="2026-09-17T01:56:26 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:zenith.OnlineEnquiryTest@393671df]" started-at="2026-09-17T01:56:26 IST" name="setup" finished-at="2026-09-17T01:56:27 IST" duration-ms="1195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="emailValidation()[pri:5, instance:zenith.OnlineEnquiryTest@393671df]" started-at="2026-09-17T01:56:27 IST" name="emailValidation" finished-at="2026-09-17T01:56:28 IST" duration-ms="913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:zenith.OnlineEnquiryTest@393671df]" started-at="2026-09-17T01:56:28 IST" name="tearDown" finished-at="2026-09-17T01:56:28 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:zenith.OnlineEnquiryTest@393671df]" started-at="2026-09-17T01:56:28 IST" name="setup" finished-at="2026-09-17T01:56:29 IST" duration-ms="1188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="pinCodeValidation()[pri:6, instance:zenith.OnlineEnquiryTest@393671df]" started-at="2026-09-17T01:56:29 IST" name="pinCodeValidation" finished-at="2026-09-17T01:56:30 IST" duration-ms="872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pinCodeValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:zenith.OnlineEnquiryTest@393671df]" started-at="2026-09-17T01:56:30 IST" name="tearDown" finished-at="2026-09-17T01:56:30 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:zenith.OnlineEnquiryTest@393671df]" started-at="2026-09-17T01:56:30 IST" name="setup" finished-at="2026-09-17T01:56:32 IST" duration-ms="1286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clearFunctionality()[pri:7, instance:zenith.OnlineEnquiryTest@393671df]" started-at="2026-09-17T01:56:32 IST" name="clearFunctionality" finished-at="2026-09-17T01:56:32 IST" duration-ms="798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:zenith.OnlineEnquiryTest@393671df]" started-at="2026-09-17T01:56:32 IST" name="tearDown" finished-at="2026-09-17T01:56:33 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:zenith.OnlineEnquiryTest@393671df]" started-at="2026-09-17T01:56:33 IST" name="setup" finished-at="2026-09-17T01:56:34 IST" duration-ms="1259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="companyAndCityOptional()[pri:8, instance:zenith.OnlineEnquiryTest@393671df]" started-at="2026-09-17T01:56:34 IST" name="companyAndCityOptional" finished-at="2026-09-17T01:56:35 IST" duration-ms="1600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- companyAndCityOptional -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:zenith.OnlineEnquiryTest@393671df]" started-at="2026-09-17T01:56:35 IST" name="tearDown" finished-at="2026-09-17T01:56:36 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:zenith.OnlineEnquiryTest@393671df]" started-at="2026-09-17T01:56:36 IST" name="setup" finished-at="2026-09-17T01:56:37 IST" duration-ms="1222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addressMandatoryValidation()[pri:9, instance:zenith.OnlineEnquiryTest@393671df]" started-at="2026-09-17T01:56:37 IST" name="addressMandatoryValidation" finished-at="2026-09-17T01:56:38 IST" duration-ms="1176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addressMandatoryValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:zenith.OnlineEnquiryTest@393671df]" started-at="2026-09-17T01:56:38 IST" name="tearDown" finished-at="2026-09-17T01:56:38 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:zenith.OnlineEnquiryTest@393671df]" started-at="2026-09-17T01:56:38 IST" name="setup" finished-at="2026-09-17T01:56:40 IST" duration-ms="1457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="messageMandatoryValidation()[pri:10, instance:zenith.OnlineEnquiryTest@393671df]" started-at="2026-09-17T01:56:40 IST" name="messageMandatoryValidation" finished-at="2026-09-17T01:56:41 IST" duration-ms="1056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageMandatoryValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:zenith.OnlineEnquiryTest@393671df]" started-at="2026-09-17T01:56:41 IST" name="tearDown" finished-at="2026-09-17T01:56:41 IST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- zenith.OnlineEnquiryTest -->
+    </test> <!-- Online Enquiry Tests -->
+  </suite> <!-- Zenith Buildtech Online Enquiry Suite -->
+</testng-results>
